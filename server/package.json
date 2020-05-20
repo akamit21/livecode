@@ -1,0 +1,51 @@
+{
+  "name": "livecode-server",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Video Conferencing App-Server",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www",
+    "test": "mocha"
+  },
+  "keywords": [
+    "node",
+    "mongo",
+    "express",
+    "pug",
+    "project"
+  ],
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.5",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "express-flash": "0.0.2",
+    "express-session": "^1.17.0",
+    "express-validator": "^5.3.1",
+    "http-errors": "^1.7.3",
+    "method-override": "^3.0.0",
+    "minimist": "^1.2.5",
+    "mongoose": "^5.9.2",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.4.6",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "pug": "^2.0.3",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.0.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.3",
+    "mocha": "^7.1.2",
+    "nodemon": "^2.0.3",
+    "prettier": "^2.0.5",
+    "supertest": "^4.0.2"
+  },
+  "author": "Amit Kumar[akamit21]",
+  "license": "ISC"
+}
